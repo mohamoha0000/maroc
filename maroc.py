@@ -1,3 +1,5 @@
+
+import random
 while (True):
 
   a=input('enter your normal code :')
