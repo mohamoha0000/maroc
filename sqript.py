@@ -1,5 +1,5 @@
-import random
-from turtle import *
+
+import ramdom
 import time
 import math
 import os
@@ -44,13 +44,14 @@ def bag ():
  a=[
 'red','blue','orange','green','black','yellow'
 ]
- width(3)
- write('by:mohamed')
- while True:
-  right(170)
-  forward(250)
-  time.sleep(0.5)
-  b="".join(random.sample(a,1))
-  bgcolor(b)
+ os.system('clear')
 tak()
+
+
+
+  
+
+
+
+
 
