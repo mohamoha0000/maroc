@@ -1,6 +1,6 @@
 import os
-
+import pyautogui
 os.system('clear')
 while (True):
-  os.typewrite('hi')
-  os.press('enter')
+  pyautogui.typewrite('hi')
+  pyautogui.press('enter')
