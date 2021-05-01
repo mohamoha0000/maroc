@@ -10,3 +10,4 @@ import random
   moha="".join(random.sample(a,b))
 
   print('code combile et : ',moha,'\n')
+   #y
