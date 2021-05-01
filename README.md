@@ -1,0 +1,2 @@
+# maroc
+print('m')
