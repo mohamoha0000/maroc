@@ -3,13 +3,14 @@ import time
 import math
 import os
 def tak ():
+ os.system('clear')
  print('\t\033[0;32mwelkom to my sqript 2021')
  time.sleep(1)
  print('\t\033[0;31mloading..')
  time.sleep(0.5)
  print('\t\033[0;33mcomplet\n')
  print('1:len to to text |2:compile password higt | | 3 : again')
- a=input()
+ a=int(input(':'))
  if a==1 :
     kahf()
  elif a==2 :
