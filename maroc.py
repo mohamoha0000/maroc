@@ -1,5 +1,6 @@
-
+import os
 import random
+os.system('clear')
 while (True):
 
   a=input('enter your normal code :')
