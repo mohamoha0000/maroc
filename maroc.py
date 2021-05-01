@@ -1,4 +1,4 @@
- while True:
+while (True):
 
   a=input('enter your normal code :')
 
