@@ -1,2 +1,0 @@
-# maroc
-print('m')
