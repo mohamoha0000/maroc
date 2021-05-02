@@ -70,6 +70,6 @@ def open():
   while (True):
    time.sleep(0.5)
    a=webbrowser.open(b)
-   droid = and
+
  
 tak()
