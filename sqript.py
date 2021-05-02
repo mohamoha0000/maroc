@@ -3,7 +3,7 @@ import time
 import math
 import os
 import webbrowser
-import androidhelper
+
 def tak ():
  os.system('clear')
  print('\t\033[0;32mwelkom to my sqript 2021')
@@ -70,6 +70,6 @@ def open():
   while (True):
    time.sleep(0.5)
    a=webbrowser.open(b)
-   droid = androidhelper.Android()
-   droid.makeToast('جاري الهجوم على الموقع')
+   droid = and
+ 
 tak()
