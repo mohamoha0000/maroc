@@ -113,6 +113,6 @@ def mat():
   if a== (0) or b==(0):
     tak()
   n=sqrt(pow(a,2)+pow(b,2))
-  print('\033[0;36m[AC]=',round(n,2),'\n')
+  print('\033[0;36m[BC]=',round(n,2),'\n')
   print('|0|:again')
 tak()
