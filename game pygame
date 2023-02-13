@@ -1,0 +1,37 @@
+import pygame
+pygame.init()
+screenwidth=1000
+screenheight=700
+screen=pygame.display.set_mode((screenwidth,screenheight))
+#title of game
+pygame.display.set_caption("simple game")
+#class of player
+class player():
+    width=50
+    height=50
+    x=0
+    y=0
+    speed=2
+    color=(255,0,0)
+#main loop of game
+while True:
+    #color of background
+    screen.fill((0,0,0))
+    #fps
+    pygame.time.delay(5)
+    #quit button
+    for event in pygame.event.get():
+        if event.type==pygame.QUIT:
+            quit()
+    keys=pygame.key.get_pressed()
+    if keys[pygame.K_RIGHT]:
+        player.x+=player.speed
+    if keys[pygame.K_LEFT]:
+        player.x-=player.speed
+    if keys[pygame.K_UP]:
+        player.y-=player.speed
+    if keys[pygame.K_DOWN]:
+        player.y+=player.speed
+    #draw player
+    pygame.draw.rect(screen,player.color,(player.x,player.y,player.width,player.height))
+    pygame.display.update()
